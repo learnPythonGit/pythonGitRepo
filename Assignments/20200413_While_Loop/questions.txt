@@ -1,1 +1,2 @@
-Questions go here...
+1 while loop for a given number print the square & cube
+2 while loop for a given number add 3 for 7 times

@@ -1,1 +1,1 @@
-Add questions here
+1 using IF elif identify if the number is even or odd
