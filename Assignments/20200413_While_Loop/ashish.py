@@ -1,6 +1,6 @@
 # Assignment : 1 while loop for a given number print the square & cube
 
-decimal = int(input("Enter a number "))
+decimal = int(input("Enter a number to derive SQUARE and CUBE  : "))
 count = 2
 while count != 0:
     count -= 1
@@ -12,7 +12,7 @@ while count != 0:
 
 
 # Assignment : while loop for a given number add 3 for 7 times
-decimal = int(input("Enter a number "))
+decimal = int(input("Enter a number to add 3 for 7 times  : "))
 output = 0
 count = 0
 while count < 7:
