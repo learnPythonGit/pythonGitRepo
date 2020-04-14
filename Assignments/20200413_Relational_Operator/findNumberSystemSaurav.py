@@ -8,14 +8,9 @@
 
 # 1 for a given number get octal, binary, hex
 
-number = input("Please enter a number")
+number = int(input("Please enter a decimal number to be converted to different number system"))
 
-if len(number) >= 4 and number[1] in ('o', 'b', 'x'):
-    if (number[1] == 'x'):
-        print("Number entered is %s and is a Hexa decimal number" %number)
-    if (number[1] == 'o'):
-        print("Number entered is %s and is an Octal number" %number)
-    if (number[1] == 'b'):
-        print("Number entered is %s and is a Binary number" %number)
-else:
-    print("%s is a Decimal Number system" %number)
+print("Decimal number entered by user is {0}\n".format(number))
+print("Octal representation of {0} is {1}".format(number, oct(number)))
+print("Hexa Decimal representation of {0} is {1}".format(number, hex(number)))
+print("Binary representation of {0} is {1}".format(number, bin(number)))
