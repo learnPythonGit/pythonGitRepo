@@ -1,2 +1,9 @@
+# Write the code for Tuple assignment
+
+#Kiran: 
+1. Write a Python Program to Find the Factorial of a Number (using relational operators and while/for loop)
+2. Write a Python Program to Find the Largest Among Three Numbers.(using relational operators)
+ 
+#Ashish:
 1 for a given number get octal, binary, hex
 2 convert temperature from celcius to farenheit
