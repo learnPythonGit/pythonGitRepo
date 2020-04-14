@@ -1,1 +1,2 @@
-# Write the code for Tuple assignment
+1 for a given number get octal, binary, hex
+2 convert temperature from celcius to farenheit
