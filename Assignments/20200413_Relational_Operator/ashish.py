@@ -2,6 +2,7 @@
 decimal = int(input("Enter number "))
 print("OCTAL value of DECIMAL {0} is {1}".format(decimal, oct(decimal)))
 print("HEX value of DECIMAL {0} is {1}".format(decimal, hex(decimal)))
+print("BINARY value of DECIMAL {0} is {1}".format(decimal, bin(decimal)))
 
 
 # Assignment : convert temperature from celcius to farenheit
