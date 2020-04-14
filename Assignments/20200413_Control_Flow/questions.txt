@@ -5,3 +5,7 @@ Add questions here
 2. Write a program to check if the given number is +ve or -Ve or its 0. (using if else)
 3. Check if the given string is a palindrome sting/word.(using if...else and for/while loop)
 4. Count the number of vowels and consonants in the string/word. (using if...else, for/while loop)
+
+
+#Ashish:
+1. using IF elif identify if the number is even or odd
