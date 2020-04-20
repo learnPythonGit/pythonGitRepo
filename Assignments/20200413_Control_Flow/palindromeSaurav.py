@@ -9,11 +9,12 @@
 # Check if the given string is a palindrome sting/word.(using if...else and for/while loop)
 
 word = input("Please Enter a word to identify if it is a palindrome")
+lowerWord = word.lower() # converting all input to lower case
 
 count = -1
 flag = True
-for i in range(int((len(word)/2))):
-    if word[i] == word[count]:
+for i in range(int((len(lowerWord)/2))):
+    if lowerWord[i] == lowerWord[count]:
         count = count - 1
     else:
         flag = False
