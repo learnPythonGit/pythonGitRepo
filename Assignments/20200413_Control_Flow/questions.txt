@@ -9,3 +9,6 @@ Add questions here
 
 #Ashish:
 1. using IF elif identify if the number is even or odd
+
+#Saurav:
+1. Find the second largest number from the list of numbers
