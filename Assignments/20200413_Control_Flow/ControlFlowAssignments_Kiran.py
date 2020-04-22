@@ -45,6 +45,8 @@ while i != j:
         k = '1'
     i += 1
     j -= 1
+    if i > j:
+        break
 if k != '1':
     print('The string \"' + input_string + '\" is palindrome')
 else:
