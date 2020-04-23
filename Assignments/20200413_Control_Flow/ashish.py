@@ -28,7 +28,7 @@ else:
 print("\n" + "-"*80)
 print("Assignment : Write a program to check if the given number is +ve or -Ve or its 0. (using if else)")
 number_one = int(input("Enter a number :  "))
-if number_one = 0:
+if number_one == 0:
     print("Number entered is a ZERO")
 elif number_one >= 0:    
     print("Number entered is a POSITIVE number")
