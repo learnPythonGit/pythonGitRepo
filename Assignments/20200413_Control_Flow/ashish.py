@@ -28,10 +28,12 @@ else:
 print("\n" + "-"*80)
 print("Assignment : Write a program to check if the given number is +ve or -Ve or its 0. (using if else)")
 number_one = int(input("Enter a number :  "))
-if number_one >= 0:
-    print("Number entered is a positive number")
+if number_one == 0:
+    print("Number entered is a ZERO")
+elif number_one >= 0:    
+    print("Number entered is a POSITIVE number")
 else:  
-    print("Number entered is a negative number")
+    print("Number entered is a NEGATIVE number")
 
 
 
@@ -39,6 +41,19 @@ else:
 print("\n" + "-"*80)
 print("Assignment : Check if the given string is a palindrome sting/word.(using if...else and for/while loop)")
 in_string = str(input("Enter a string :  ")).upper()
+# using for loop
+is_palindrome = True
+string_length = len(in_string)
+for i in range(string_length//2):
+    if in_string[i] != in_string[string_length -i -1]:
+        is_palindrome = False
+        break
+if is_palindrome:
+    print("Entered string is palindrome")
+else:
+    print("Entered string is not palindrome")
+    
+# using string function
 if in_string == in_string[::-1]:
     print("Entered string is palindrome")
 else:  
@@ -51,11 +66,13 @@ print("\n" + "-"*80)
 print("Assignment : Count the number of vowels and consonants in the string/word. (using if...else, for/while loop)")
 in_string = str(input("Enter a string :  ")).upper()
 i, vowels, consonents = 0,0,0
+alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 while i < len(in_string):
-    if in_string[i] in ('AEIOU'):
-        vowels += 1
-    elif in_string[i] != " ":
-        consonents += 1
+    if in_string[i] in alphabet:
+        if in_string[i] in ('AEIOU'):
+            vowels += 1
+        elif in_string[i] != " ":
+            consonents += 1
     i += 1
 print("Entered string has {0} vovels and {1} consonants".format(vowels,consonents))
 
